@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quantum Quandaries</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Quantum Quandaries</h1>
+  <div id="instructions">
+    <h2>How to Play</h2>
+    <p>Players alternate turns, each turn consists of placing a chip on any empty cell and then drawing a Quantum card.</p>
+    <p>The objective of the game is to control as many rows, columns or diagonals as possible. A player controls a line if they have more chips in it than their opponent.</p>
+    <h3>Quantum Cards</h3>
+    <p>After placing a chip, players draw a Quantum card. They can choose to play it immediately or save it for a future turn. Players can only hold up to 3 Quantum cards in their hand.</p>
+    <p>The game ends when all chips have been placed on the board or when the Quantum deck runs out. The player who controls the most lines is the winner.</p>
+  </div>
+  <div id="game-board"></div>
+  <button id="end-turn-button">End Turn</button>
+  <button id="reset-button">Reset Game</button>
+  <div id="cards"></div>
+  <script src="game.js"></script>
+</body>
+</html>
